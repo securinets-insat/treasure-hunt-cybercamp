@@ -36,8 +36,8 @@ module.exports = {
         solid2: `2px 2px 0px ${theme("colors.secondary")}`,
       }),
       backgroundImage: {
-        'block-top-pattern': "url('~/assets/images/block-top.svg')",
-        'block-bottom-pattern': "url('~/assets/images/block-bottom.svg')",
+        "block-top-pattern": "url('~/assets/images/block-top.svg')",
+        "block-bottom-pattern": "url('~/assets/images/block-bottom.svg')",
       },
     },
   },

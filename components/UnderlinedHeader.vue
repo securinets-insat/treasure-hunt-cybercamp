@@ -3,7 +3,7 @@ const props = defineProps<{
   /**
    * Sets the width of the underline in px. Defaults to 800.
    */
-  width: number;
+  width?: number;
 }>();
 </script>
 

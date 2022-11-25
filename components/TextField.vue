@@ -15,12 +15,13 @@ export default {
   <div class="relative inline-block">
     <input
       :id="props.id"
-      class="peer appearance-none bg-transparent pt-4 pb-2 text-lg text-white focus:outline-none"
+      class="peer appearance-none bg-transparent pt-4 pb-2 text-lg text-white placeholder:opacity-0 focus:outline-none"
+      :placeholder="props.label"
       :bind="$attrs"
     />
     <label
       :for="props.id"
-      class="absolute top-0 left-0 cursor-text pt-4 pb-2 text-lg text-white/50 transition-all duration-300 peer-focus:p-0 peer-focus:text-xs peer-focus:text-primary"
+      class="absolute top-0 left-0 cursor-text p-0 text-xs text-primary transition-all duration-300 peer-placeholder-shown:pt-4 peer-placeholder-shown:pb-2 peer-placeholder-shown:text-lg peer-placeholder-shown:text-white/50 peer-focus:p-0 peer-focus:text-xs peer-focus:text-primary"
     >
       {{ props.label }}
     </label>
